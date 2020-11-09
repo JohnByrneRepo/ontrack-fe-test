@@ -1,0 +1,53 @@
+@import "~bootstrap/scss/bootstrap";
+@import "custom";
+
+.container {
+  margin-top: 20px;
+}
+
+.book {
+  padding: 10px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.info {
+  font-size: 14px;
+}
+
+a, a:hover {
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.btn-primary > a {
+  color: white;
+}
+
+.disabled {
+  color: #ddd;
+}
+
+.search {
+  margin: 20px;
+}
+
+.search-container {
+  padding-left: 10px;
+  height: 75px;
+}
+
+.search-form-list {
+  list-style-type: none;
+  float: left;
+}
+
+.search-form-offset {
+  line-height: 70px;
+}
